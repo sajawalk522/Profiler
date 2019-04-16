@@ -1,0 +1,871 @@
+@font-face {
+    font-family: UniSansCAPS;
+    src: url(../fonts/UniSansThin.otf);
+}
+@font-face {
+    font-family: AvenirNext;
+    src: url(../fonts/AvenirNextLTPro-Regular.otf);
+}
+@font-face {
+    font-family: UniSansCAPSitalic;
+    src: url(../fonts/UniSansHeavyItalic.otf);
+}
+@font-face {
+    font-family: UniSansCAPSheavy;
+    src: url(../fonts/UniSansHeavy.otf);
+}
+@font-face {
+    font-family: UniSansCAPSthinitalic;
+    src: url(../fonts/UniSansThinItalic.otf);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: 'Source Serif Pro', serif; */
+    background-color: #00c7ff!important;
+}
+.main{
+    margin-top: 100px;
+}
+.acurate{
+    margin: 0;
+    padding: 0 !important;
+}
+.main-card{
+    box-shadow: 0px 3px 88px 24px #008aff7d;
+    padding: 0 45px;
+    margin-top: 80px;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+.header-text h1{
+    font-size: 46px;
+    font-weight: 800;
+    color: black;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+.navigation ul li{
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.navigation ul li a:hover , .navigation ul li a:focus{
+    color: #121212;
+    background: #ffffff;
+    text-decoration: none;
+}
+.navigation ul li a{
+    display: block;
+    text-align: center;
+    padding: 30px 35px;
+    font-size: 16px;
+    color: #121212;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 0!important;
+}
+.navigation ul li a span{
+    display: block;
+    color: #121212;
+    margin-bottom: 6px;
+}
+.navigation ul li a span:before{
+    margin-left: 0px;
+    font-size: 25px;
+}
+.navigation ul li.active a {
+    color: #121212;
+    background: #ffffff;
+    text-decoration: none;
+}
+  .tab-content{
+    margin-top: 40px;
+    padding-bottom: 45px;
+}
+  .profile-area .profile-img {
+    padding-right: 40px;
+}
+.profile-area .profile-img img{
+  width: 100%;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+  .profile-area .profile-info .name {
+    margin-bottom: 25px;
+    color: #000000;
+}
+  .profile-area .profile-info .name h1 {
+    font-size: 50px;
+    color: #000000;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+  .profile-area .profile-info .name h4 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.about-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.about-info ul li {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.about-info ul li i {
+    margin-right: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+}
+.about-info ul li span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.flaticon-user:before {
+    margin-left: 0!important;
+}
+  .profile-area .profile-info .objective-area {
+    overflow: hidden;
+    margin-top: 7px;
+}
+  .profile-area .profile-info .objective-area h3 {
+    color: #000000;
+    font-weight: 900;
+    font-size: 24px;
+    position: relative;
+    padding-left: 30px;
+    margin: 15px 0;
+}
+  .profile-area .profile-info .objective-area p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+  .profile-area .profile-info .objective-area h3:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #ffffff;
+    left: 0;
+    top: 2px;
+}
+  .resume-area .single-resume .resume-title h3 {
+    font-size: 24px;
+    color: #010101;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 12px;
+}
+  .resume-area .single-resume .resume-title h3 i {
+    margin-right: 10px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    background: #f9f9f9;
+}
+  .resume-area .single-resume .education-list {
+    position: relative;
+}
+  .resume-area .single-resume .education-list .single-education {
+    margin-bottom: 13px;
+    padding-left: 60px;
+    position: relative;
+    transition: transition;
+}
+.fix {
+    overflow: hidden;
+}
+.pull-left {
+    float: left !important;
+}
+  .resume-area .single-resume .education-list .single-education .university-title h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.pull-right {
+    float: right !important;
+}
+  .resume-area .single-resume .education-list .single-education .education-content h5 {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+  .resume-area .single-resume .education-list .single-education .education-content p {
+    margin-bottom: 0;
+}
+  .resume-area .single-resume .education-list:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    left: 22px;
+    top: 12px;
+    background: #f9f9f9;
+}
+  .resume-area .single-resume .education-list .single-education:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #f9f9f9;
+}
+  .resume-area .single-resume .education-list .single-education:hover:after {
+    background: #000000;
+    z-index: 1;
+}
+  .resume-area .single-resume .employment-list .single-employment:hover:after {
+    background: #000000;
+    z-index: 1;
+}
+  .resume-area .single-resume .skills-list .single-skills:hover:after {
+    background: #000000;
+    z-index: 1;
+}
+  .resume-area .single-resume .certificates-list .single-certificates:hover:after {
+    background: #000000;
+    z-index: 1;
+}
+  .resume-area .single-resume .languages-list .single-language:hover:after {
+    background: #000000;
+    z-index: 1;
+}
+  .contact-area .contact-form form .submit-btn .btn:hover {
+    color: #000000;
+    background: #f9f9f9;
+}
+  .resume-area .single-resume .employment-list {
+    position: relative;
+}
+  .resume-area .single-resume .employment-list .single-employment {
+    margin-bottom: 13px;
+    padding-left: 60px;
+    position: relative;
+    transition: transition;
+}
+.single-resume .employment-list .single-employment:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #f9f9f9;
+}
+.single-resume .employment-list:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    left: 22px;
+    top: 12px;
+    background: #f9f9f9;
+}
+  .resume-area .single-resume .employment-list .single-employment .university-title h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+  .resume-area .single-resume .employment-list .single-employment .university-title h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+  .resume-area .single-resume .employment-list .single-employment .employment-content h5 {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+  .resume-area .single-resume .employment-list .single-employment .employment-content p {
+    margin-bottom: 0;
+}
+  .resume-area .single-resume .skills-list {
+    position: relative;
+}
+  .resume-area .single-resume .skills-list .single-skills {
+    margin-bottom: 15px;
+    padding-left: 60px;
+    position: relative;
+    transition: transition;
+}
+.progressbar {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    position: relative;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
+    background-color: rgb(32, 44, 61);
+    border-radius: 6px;
+}
+.probar{
+    width: 100%!important;
+    background-color: rgb(32, 44, 61)!important;
+    border-radius: 6px!important;
+}
+.proggress {
+    background-color: rgb(247, 247, 247)!important;
+    height: 10px;
+    border-radius: 6px!important;
+    width: 80%!important;
+}
+.percentCount {
+    float: right;
+    margin-top: 10px;
+    clear: both;
+    font-weight: bold;
+    font-family: Arial;
+}
+  .resume-area .single-resume .skills-list .single-skills h5 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+  .resume-area .single-resume .skills-list .single-skills:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    left: 15px;
+    top: 25px;
+    background: #f9f9f9;
+}
+  .resume-area .single-resume .skills-list::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    left: 22px;
+    top: 0;
+    background: #f9f9f9;
+}
+  .resume-area .single-resume .certificates-list {
+    position: relative;
+}
+  .resume-area .single-resume .certificates-list .single-certificates {
+    margin-bottom: 13px;
+    padding-left: 60px;
+    position: relative;
+    transition: transition;
+}
+  .resume-area .single-resume .certificates-list .single-certificates .university-title h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+  .resume-area .single-resume .certificates-list .single-certificates .certificates-content p {
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+  .resume-area .single-resume .certificates-list .single-certificates:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #f9f9f9;
+}
+  .resume-area .single-resume .certificates-list:after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 90%;
+    left: 22px;
+    top: 12px;
+    background: #f9f9f9;
+}
+  .resume-area .single-resume .languages-list .single-language {
+    margin-bottom: 30px;
+    padding-left: 60px;
+    position: relative;
+    transition: transition;
+}
+  .resume-area .single-resume .languages-list .single-language:before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 80%;
+    left: 22px;
+    top: 12px;
+    background: #f9f9f9;
+}
+  .resume-area .single-resume .languages-list .single-language .language-name h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+  .resume-area .single-resume .languages-list .single-language .language-rating ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  .resume-area .single-resume .languages-list .single-language .language-rating ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+  .resume-area .single-resume .languages-list .single-language:after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    left: 15px;
+    top: 12px;
+    background: #f9f9f9;
+}
+  .service-area .single-service {
+    margin: 7px;
+    padding: 76px 45px;
+    transition: all 300ms;
+    background-color: #fff;
+}
+  .service-area .single-service .service-icon {
+    margin-bottom: 10px;
+}
+  .service-area .single-service .setvice-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+  .service-area .single-service .setvice-content p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+ .service-area .single-service .service-icon i:before {
+    margin-left: 0;
+    font-size: 60px;
+}
+ .service-area .single-service:hover {
+    background: #00c7ff;
+    box-shadow: 2px 2px 60px #008aff7d;
+}
+ .testimonia-area .single-testimonial {
+    padding: 60px 25px 13px 25px;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 45px;
+}
+.testimonia-area .single-testimonial p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+ .testimonia-area .single-testimonial .title h4 {
+    font-weight: 900;
+}
+ .testimonia-area .single-testimonial .title h4 span {
+    display: block;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+.testimonia-area .single-testimonial .icon {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: -45px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: #000000;
+    margin: 0 auto;
+}
+  .testimonia-area .single-testimonial .icon i {
+    color: #ffffff;
+}
+  .testimonia-area .single-testimonial .icon i:before {
+    margin-left: 0;
+    font-size: 30px;
+}
+  .testimonia-area .single-testimonial:hover {
+    box-shadow: 2px 2px 60px #008aff7d;
+    background-color: #00c7ff;
+    transition: .5s;
+}
+.pagenation-area .pagenation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.pagenation-area .pagenation ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.pagenation-area .pagenation ul li.active a {
+    color: #f9f9f9;
+    background: #000000;
+}
+.pagenation-area .pagenation ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    transition: all 300ms;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.pagenation-area .number-page span {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+  .contact-area .contact-left {
+    padding: 20px;
+    background: #00c7ff;
+    box-shadow: 0px 3px 79px 13px #008aff7d;
+}
+  .contact-area .contact-left .map-area {
+    margin-bottom: 16px;
+}
+  .contact-area .contact-form {
+    padding: 20px;
+    background: #00c7ff;
+    box-shadow: 0px 3px 79px 13px #008aff7d;
+}
+  .contact-area .contact-form h3 {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    text-transform: capitalize;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+  .contact-area .contact-form h3:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #ffffff;
+    left: 0;
+    top: 2px;
+}
+  .contact-area .contact-form form {
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+  .contact-area .contact-form form .input-grup input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 5px 20px;
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    outline: 1px solid transparent;
+    border: 1px solid transparent;
+}
+  .contact-area .contact-form form .checkbox-grup {
+    margin: 20px 0;
+}
+  .contact-area .contact-form form .checkbox-grup .single-check {
+    display: inline-block;
+    width: 32%;
+    margin-bottom: 10px;
+}
+  .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] {
+    display: none;
+}
+  .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:last-child {
+    margin-bottom: 0;
+}
+  .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font: 14px/20px 'Open Sans', Arial, sans-serif;
+    color: #010101;
+    cursor: pointer;
+}
+  .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
+}
+  .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"]:checked + label:before {
+    width: 10px;
+    top: -5px;
+    left: 5px;
+    border-radius: 0;
+    opacity: 1;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+  .contact-area .contact-form form .messages-area textarea {
+    width: 100%;
+    height: 170px;
+    resize: none;
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    outline: 1px solid transparent;
+    border: 1px solid transparent;
+}
+  .contact-area .contact-form form .submit-btn .btn {
+    color: #f9f9f9;
+    background: #000000;
+    padding: 8px 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    -webkit-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+}
+  .portfolio-area {
+    width: 100%;
+}
+  .portfolio-area .filtering-button {
+    margin-bottom: 40px;
+}
+  .portfolio-area .filtering-button a.active {
+    background: #f9f9f9;
+    color: #000000;
+}
+  .portfolio-area .filtering-button a {
+    padding: 10px 20px;
+    transition: all 300ms;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+  .portfolio-area .grid {
+    min-height: 510px;
+    margin-bottom: 30px;
+        display: flex;
+    flex-flow: wrap;
+}
+  .portfolio-area .grid .single-portfolio {
+    margin: 7px;
+    background: #fffae7;
+    text-align: center;
+    position: relative;
+}
+  .portfolio-area .grid .single-portfolio .work_thumb img {
+    width: 100%;
+}
+.grid{
+    width: 100%;
+}
+  .portfolio-area .grid .single-portfolio .work_thumb:hover + .work-hover1{
+    display: block;
+}
+
+.work-hover1{
+    position: absolute;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    display: none
+}
+.work-hover1 .mask-work1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1%;
+    border: 1px dashed #ffffff;
+    margin: 0 30px;
+    padding: 30px 10px;
+}
+.work-hover1 .mask-work1 h4 {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-top: -10px;
+}
+.work-hover1 .mask-work1 p {
+    margin-top: 50px;
+}
+.work-hover1 .mask-work1 a {
+    display: inline-block;
+    padding: 8px 10px;
+    background: #ffffff;
+    border-radius: 30px;
+    color: #000000;
+}
+
+/* social-links css start */
+.social-links{
+    top: 20%;
+    position: fixed;
+    left: 3%;
+}
+
+.icons i{
+    
+    font-size: 20px;
+}
+.icons > div{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: #ffffff;
+}
+.icons > div:hover{
+    background: #00c7ff;
+    box-shadow: 0px 3px 10px 0px #007aff;
+    cursor: pointer;
+    color: black;
+    transition: .5s;
+}
+/* social-link css end */
+.profile-cards .pro{
+    padding: 0 60px;
+    
+}
+.profile-cards .image-1{
+    background-image: url(../images/wesal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 88px 24px #008aff7d;
+    transform: scaleX(-1);
+}
+.profile-cards .image-2{
+    background-image: url(../images/pro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 88px 24px #008aff7d;
+    transform: scaleX(-1);
+}
+.profile-cards .image-1:hover, .profile-cards .image-2:hover{
+    background: #000;
+}
+.pro-content{
+    visibility: hidden;
+    position: absolute;
+    top: 16%;
+    left: 28%;
+    height: 380px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    transform: scaleX(-1);
+}
+.profile-cards .image-1:hover .pro-content,.profile-cards .image-2:hover .pro-content{
+    visibility: visible;
+}
+.pro-content{
+    font-size: 18px;
+    font-weight: 700;
+}
+.button-ex{
+    background-color: #00c7ff;
+    padding: 5px 30px !important;
+    font-size: 20px !important;
+}
+.percent-disp-r{
+    position: absolute;
+    right: 0;
+}
+.percent-disp-l{
+    position: absolute;
+    left: 0;
+}
+.map{
+    width:100%;
+     height:400px;
+      border:0;
+}
